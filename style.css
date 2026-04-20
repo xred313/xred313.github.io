@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+div.hero-image {
+  z-index: -1;
+  position: relative;
+  height: 100%;
+    width: 100%;
+}
+
+div.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.hero-text button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bXVzaWMlMjBmZXN0aXZhbHxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000); /* bakgrundsbild */
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+    border-top: 10000px;
+    border-radius: 10px;
+    color: rgb(230, 230, 230);
+    border-radius: 8px;
+    background-attachment: fixed;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
