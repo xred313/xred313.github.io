@@ -2,9 +2,10 @@
 
 
  let header = document.getElementsByTagName("header")[0].innerHTML = `
-      <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3">
+      <nav class="navbar navbar-expand-lg luxury-navbar mb-3">
         <div class="container-fluid">
           
+          <img src="images/logo.png" alt="Optimus Auto Market Logo" class="navbar-brand logo">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -25,11 +26,11 @@
     </nav>`
 
     let footer = document.getElementsByTagName("footer")[0].innerHTML = `
-    <div class="card">
+    <div class="luxury-footer card text-center">
   <h5 class="card-header">Optimus Auto Market</h5>
   <div class="card-body">
     <h5 class="card-title">Contact Information</h5>
     <p class="card-text">123 Auto Street, Car City<br>Email: info@optimusautomarket.com<br>Phone: (123) 456-7890</p>
-    <a href="#" class="btn btn-primary">Top page</a>
+    <a href="#" class="btn luxury-btn">Top page</a>
   </div>
 </div>`
