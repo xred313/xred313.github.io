@@ -21,6 +21,16 @@ body {
   background-attachment: fixed;
 }
 
+.apply-btn {
+  background-color: #4e72ff;
+  border-color: #3d5ff8;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
 body h1,
 body h2,
 body h3,
@@ -50,7 +60,7 @@ body .navbar-nav .nav-link {
 .luxury-navbar .navbar-brand:hover {
  
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  transform: translateY(-3px);
+  transform: translateY(-2px);
   
 }
 .luxury-navbar .nav-link,
@@ -74,12 +84,6 @@ body .navbar-nav .nav-link {
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.alert {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.12);
-  color: #eef2ff;
-}
-
 .btn-primary,
 .btn-primary:hover,
 .btn-primary:focus {
@@ -92,26 +96,8 @@ body .navbar-nav .nav-link {
   align-items: center;
 }
 
-.luxury-navbar .navbar-brand {
-  padding: 0;
-}
-
 .navbar-brand.logo {
   max-height: 40px; /* justera logotypens höjd */
   width: auto; /* behåll proportionerna */
   z-index: 2;
-}
-
-.card,
-.card img {
-  border-radius: 12px;
-}
-
-
-.img-fluid,
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }
