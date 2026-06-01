@@ -107,10 +107,6 @@ body .navbar-nav .nav-link {
   border-radius: 12px;
 }
 
-.card-img-top {
-  object-fit: cover;
-  max-height: 220px;
-}
 
 .img-fluid,
 img {
@@ -119,4 +115,3 @@ img {
   border-radius: 10px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }
-
