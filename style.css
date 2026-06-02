@@ -101,3 +101,10 @@ body .navbar-nav .nav-link {
   width: auto; /* behåll proportionerna */
   z-index: 2;
 }
+
+.image-hampus {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
